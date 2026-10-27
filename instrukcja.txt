@@ -1,0 +1,29 @@
+INSTRUKCJA GRY MASTERMIND
+
+1. Cel gry
+Twoim zadaniem jest odgadniecie ukrytego kodu kolorystycznego w maksymalnie 10 probach.
+
+2. Tryby rozgrywki
+W gre Mastermind moze grac 1 lub 2 graczy.
+- Tryb 1-osobowy: System komputerowy generuje ukryty kod w sposob calkowicie losowy.
+- Tryb 2-osobowy: Pierwszy z graczy recznie wprowadza tajny kod, a drugi probuje go odgadnac.
+
+3. Poziomy trudnosci
+Dlugosc kodu do odgadniecia jest zalezna od wybranego poziomu:
+- Latwy: Kod sklada sie z 4 elementow.
+- Sredni: Kod sklada sie z 5 elementow.
+- Trudny: Kod sklada sie z 6 elementow.
+
+4. Wprowadzanie kodu
+Swoje proby wprowadzasz ciagiem, uzywajac cyfr od 1 do 6 na klawiaturze. Kazda cyfra odpowiada konkretnemu kolorowi:
+1 - Czerwony
+2 - Zielony
+3 - Zolty
+4 - Niebieski
+5 - Fioletowy
+6 - Cyjan
+
+5. System podpowiedzi (Ocenianie)
+Po zatwierdzeniu kazdej proby (wcisnieciu klawisza Enter), po prawej stronie planszy pojawia sie znaczniki weryfikujace Twoj strzal:
+- Czarny znacznik: Oznacza, ze jeden z wprowadzonych przez Ciebie kolorow jest prawidlowy i znajduje sie na idealnie dobrym miejscu.
+- Bialy znacznik: Oznacza, ze jeden z wprowadzonych kolorow znajduje sie w ukrytym kodzie, ale zostal przez Ciebie postawiony na blednej pozycji.
